@@ -2,7 +2,6 @@ package com.whmct.ecommerce.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.ManyToAny;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
@@ -19,13 +18,17 @@ public class Product {
     @Column(name = "id")
     private Long id;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id", nullable = false)
+    private ProductCategory category;
+
     @Column(name = "sku")
     private String sku;
 
     @Column(name = "name")
     private String name;
 
-    @Column(name = "desription")
+    @Column(name = "description")
     private String description;
 
     @Column(name = "unit_price")
@@ -37,18 +40,15 @@ public class Product {
     @Column(name = "active")
     private boolean active;
 
-    @Column(name = "unit_in_stock")
+    @Column(name = "units_in_stock")
     private int unitsInStock;
 
     @Column(name = "date_created")
     @CreationTimestamp
     private Date dateCreated;
-    @UpdateTimestamp
-    @Column(name = "last_update")
-    private Date lastUpdate;
 
-    @ManyToOne
-    @JoinColumn(name = "category_id", nullable = false)
-    private ProductCategory category;
+    @Column(name = "last_updated")
+    @UpdateTimestamp
+    private Date lastUpdated;
 
 }
