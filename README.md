@@ -5,8 +5,6 @@
 </h1>
 
 <h4 align="center">Title for screenshot.</h4>
-![](header.png)
-
 Spring Boot E-commerce Project. Just for learning something new
 
 ### Release History
@@ -22,6 +20,6 @@ Spring Boot E-commerce Project. Just for learning something new
 
 ### Screenshots
 
-![](header.png)
+![]()
 ### Authors
 T.A. - *Initial work* - [zebra-it](https://zebra-it.github.io/)
