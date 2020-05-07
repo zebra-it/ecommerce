@@ -1,7 +1,7 @@
 ## E-commerce
 <h1 align="center">
   <br>
-  <img src="https://github.com/zebra-it/ecommerce/blob/master/src/main/resources/screenshots/screenshot001.png" alt="Foco" width="160">
+  <img src="https://github.com/zebra-it/ecommerce/blob/master/src/main/resources/screenshots/screenshot001.png" alt="hz" width="160">
 </h1>
 
 <h4 align="center">Title for screenshot.</h4>
@@ -20,6 +20,6 @@ Spring Boot E-commerce Project. Just for learning something new
 
 ### Screenshots
 
-![](https://github.com/zebra-it/ecommerce/blob/master/src/main/resources/screenshots/screenshot001.png)
+<img src="https://github.com/zebra-it/ecommerce/blob/master/src/main/resources/screenshots/screenshot001.png" alt="screen001" width="280">
 ### Authors
 T.A. - *Initial work* - [zebra-it](https://zebra-it.github.io/)
