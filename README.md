@@ -1,7 +1,7 @@
 ## E-commerce
 <h1 align="center">
   <br>
-  <img src="https://github.com/akashnimare/foco/blob/master/app/img/foco.png" alt="Foco" width="160">
+  <img src="" alt="Foco" width="160">
 </h1>
 
 <h4 align="center">Title for screenshot.</h4>
